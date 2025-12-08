@@ -2,5 +2,20 @@ body {
     font-family: "Roboto", sans-serif;
 }
 .header-link-logo footer-link-logo {
-    font-family: "Raleway", sans-serif;
+    font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 117%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--navy-blue);
+}
+.span-logo {
+    font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 117%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--iris);
 }
